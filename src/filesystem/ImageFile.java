@@ -1,4 +1,4 @@
-package FileSystem;
+package filesystem;
 
 /*
 - ImageFile с полями width, height, bytesPerPixel.
@@ -19,6 +19,6 @@ public class ImageFile extends File {
      */
     @Override
     public long getSize() {
-        return width * height * bytesPerPixel;
+        return this.width * this.height * this.bytesPerPixel;
     }
 }

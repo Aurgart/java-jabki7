@@ -1,19 +1,17 @@
-import Figures.Circle;
-import Figures.Rectangle;
-import Figures.Shape;
-import FileSystem.File;
-import FileSystem.ImageFile;
-import FileSystem.TextFile;
-import Sounds.AlarmClock;
-import Sounds.CarHorn;
-import Sounds.Dog;
-import Sounds.SoundEmitter;
-import Transport.Transport;
-import Transport.Bicycle;
-import Transport.Airplane;
+import figures.Circle;
+import figures.Rectangle;
+import figures.Shape;
+import filesystem.File;
+import filesystem.ImageFile;
+import filesystem.TextFile;
+import sounds.AlarmClock;
+import sounds.CarHorn;
+import sounds.Dog;
+import sounds.SoundEmitter;
+import transport.Transport;
+import transport.Bicycle;
+import transport.Airplane;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /*
 Самостоятельная работа:

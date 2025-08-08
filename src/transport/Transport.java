@@ -1,4 +1,4 @@
-package Transport;
+package transport;
 /*
 Абстрактный класс Transport с полем speed и абстрактным методом void move().
  */

@@ -1,4 +1,4 @@
-package Figures;
+package figures;
 /*
 - Circle с полем radius.
  */

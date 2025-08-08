@@ -1,4 +1,4 @@
-package Sounds;
+package sounds;
 /*
 Собака
  */

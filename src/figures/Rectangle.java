@@ -1,4 +1,4 @@
-package Figures;
+package figures;
 /*
 - Rectangle с полями width и height.
  */
@@ -13,6 +13,6 @@ public class Rectangle extends Shape {
 
     @Override
     public double area() {
-        return width * height;
+        return this.width * this.height;
     }
 }

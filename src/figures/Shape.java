@@ -1,4 +1,4 @@
-package Figures;
+package figures;
 /*
 Создайте абстрактный класс Shape с абстрактным методом double area() и методом void displayArea().
  */

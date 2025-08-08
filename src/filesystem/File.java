@@ -1,4 +1,4 @@
-package FileSystem;
+package filesystem;
 /*
 Абстрактный класс File с полями name и абстрактным методом long getSize().
  */

@@ -1,4 +1,4 @@
-package FileSystem;
+package filesystem;
 /*
 - TextFile с полем content (строка).
  */
