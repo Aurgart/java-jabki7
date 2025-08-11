@@ -78,6 +78,7 @@ class MainTest {
 
     /**
      * Запуск гонки.
+     *
      * @param vehicles
      */
     public void startRace(Transport[] vehicles) {
@@ -85,9 +86,9 @@ class MainTest {
             car.move();
         }
     }
-    
+
     @Test
-    public void testTransport(){
+    public void testTransport() {
         Transport[] cars = {new Bicycle(40), new Airplane(600), new Bicycle(20), new Airplane(900)};
         startRace(cars);
     }

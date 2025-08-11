@@ -1,8 +1,9 @@
 package transport;
+
 /*
 Велик
  */
-public class Bicycle extends Transport{
+public class Bicycle extends Transport {
 
     public Bicycle(int speed) {
         this.speed = speed;

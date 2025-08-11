@@ -8,14 +8,16 @@ public class ImageFile extends File {
     int height;
     int bytesPerPixel;
 
-    public ImageFile(int width, int height, int bytesPerPixel){
+    public ImageFile(int width, int height, int bytesPerPixel) {
         this.width = width;
         this.height = height;
         this.bytesPerPixel = bytesPerPixel;
     }
+
     /**
      * Размер файла
-     * @return
+     *
+     * @return - возвращает размер файла. (ширина на высоту и на байт пер пиксель)
      */
     @Override
     public long getSize() {

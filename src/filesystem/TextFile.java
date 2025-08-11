@@ -1,16 +1,19 @@
 package filesystem;
+
 /*
 - TextFile с полем content (строка).
  */
-public class TextFile extends File{
+public class TextFile extends File {
     String content;
+
     public TextFile(String content) {
         this.content = content;
     }
 
     /**
      * размер файла
-     * @return
+     *
+     * @return - размер файла (длина стринги)
      */
     @Override
     public long getSize() {

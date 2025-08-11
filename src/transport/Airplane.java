@@ -1,8 +1,9 @@
 package transport;
+
 /*
 Самолет
  */
-public class Airplane extends Transport{
+public class Airplane extends Transport {
     public Airplane(int speed) {
         this.speed = speed;
     }
